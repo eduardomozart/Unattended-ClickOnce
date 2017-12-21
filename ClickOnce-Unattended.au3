@@ -14,11 +14,12 @@
 #include <MsgBoxConstants.au3>
 #include "AutoIt-ProcessClass\ProcessClass.au3"
 
-AutoItSetOption ( "TrayIconDebug", 1 )
+AutoItSetOption("TrayIconDebug", 1)
 Opt("WinWaitDelay", 250)
 ;OnAutoItExitRegister("OnAutoItExit")
 HotKeySet("{ESCAPE}", "OnAutoItExit")
 
+ConsoleWrite("$CmdLine[0]: " & $CmdLine[0])
 If $CmdLine[0] = 0 Then Main(_FileOpenDialog())
 If $CmdLine[0] = 1 Then Main($CmdLine[1])
 If $CmdLine[0] > 1 Then help()

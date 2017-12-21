@@ -1,13 +1,13 @@
 # ClickOnce Unattended
 
-[![GitHub release](https://img.shields.io/github/release/coldscientist/clickonce-unattended.svg?maxAge=2592000)](https://github.com/coldscientist/clickonce-unattended/releases/latest)
-[![license](https://img.shields.io/github/license/coldscientist/clickonce-unattended.svg?maxAge=2592000)](https://github.com/coldscientist/clickonce-unattended/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/coldscientist/unattended-clickonce.svg?maxAge=2592000)](https://github.com/coldscientist/unattended-clickonce/releases/latest)
+[![license](https://img.shields.io/github/license/coldscientist/unattended-clickonce.svg?maxAge=2592000)](https://github.com/coldscientist/unattended-clickonce/blob/master/LICENSE)
 
 Unattended installer for ClickOnce applications.
 
 ## Download
 
-You can get the latest version [here](https://github.com/coldscientist/github-unattended/releases/latest).
+You can get the latest version [here](https://github.com/coldscientist/unattended-clickonce/releases/latest).
 
 ## License
 
