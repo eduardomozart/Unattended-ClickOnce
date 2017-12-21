@@ -6,7 +6,7 @@
  Author:         Eduardo Mozart de Oliveira
 
  Script Function:
-	Silent installer for ClickOnce aplications
+	Unattended installer for ClickOnce aplications
 	https://www.autoitscript.com/forum/topic/58770-need-simple-example-of-command-line-parameters/
 
 #ce ----------------------------------------------------------------------------
