@@ -1,7 +1,7 @@
 #cs ----------------------------------------------------------------------------
 
  Title: ClickOnce Unattended
- Version: 0.1
+ Version: v0.1-beta
  AutoIt Version: 3.3.14.2
  Author:         Eduardo Mozart de Oliveira
 
@@ -12,7 +12,7 @@
 
 #include <FileConstants.au3>
 #include <MsgBoxConstants.au3>
-#include "autoit-processclass\ProcessClass.au3"
+#include "AutoIt-ProcessClass\ProcessClass.au3"
 
 AutoItSetOption ( "TrayIconDebug", 1 )
 Opt("WinWaitDelay", 250)
@@ -20,6 +20,7 @@ Opt("WinWaitDelay", 250)
 HotKeySet("{ESCAPE}", "OnAutoItExit")
 
 If $CmdLine[0] = 0 Then Main(_FileOpenDialog())
+If $CmdLine[0] = 1 Then Main($CmdLine[1])
 If $CmdLine[0] > 1 Then help()
 
 Func Main($ClickOnceStub)
