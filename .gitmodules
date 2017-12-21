@@ -1,0 +1,3 @@
+[submodule "autoit-processclass"]
+	path = autoit-processclass
+	url = https://github.com/coldscientist/autoit-processclass
