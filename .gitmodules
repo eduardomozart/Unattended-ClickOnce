@@ -1,0 +1,3 @@
+[submodule "AutoIt-ProcessClass"]
+	path = AutoIt-ProcessClass
+	url = https://github.com/coldscientist/AutoIt-ProcessClass
