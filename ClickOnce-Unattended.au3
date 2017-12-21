@@ -6,7 +6,7 @@
  Author:         Eduardo Mozart de Oliveira
 
  Script Function:
-	Unattended installer for ClickOnce aplications
+	Unattended installer for ClickOnce applications.
 
 #ce ----------------------------------------------------------------------------
 
