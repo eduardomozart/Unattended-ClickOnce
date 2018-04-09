@@ -5,6 +5,11 @@
 
 Unattended installer for ClickOnce applications.
 
+## ToDo
+
+1. Install for all users
+1. Parse error codes
+
 ## Download
 
 You can get the latest version [here](https://github.com/coldscientist/unattended-clickonce/releases/latest).
